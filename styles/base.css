@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+    background-color: #1e4f6e; /* Dark blue background */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+course-title{
+    font-size: 1.3rem;
+  font-weight: bold;
+  display: block;
+}
+
+header span section {
+  color: #c4f000; /* Yellow-green for instructor’s name */
+  font-weight: bold;
+  display: inline;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around; /* evenly distribute */
+  background-color: #333; /* dark gray */
+  padding: 0.75rem 0; /* vertical space inside nav bar */
+  margin: 0; /* remove gap outside */
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.navigation a:hover {
+  color: #ffeb3b; /* yellow hover effect */
+}
+
+
