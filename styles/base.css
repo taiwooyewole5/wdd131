@@ -75,3 +75,21 @@ main {
   margin-left: 1rem;
   border-radius: 5px;
 }
+
+
+footer {
+  background-color: #1d4b6e; /* dark blue */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+footer p {
+  margin: 0.3rem;
+}
+
+#lastModified {
+  color: yellow;
+  font-size: 0.9rem;
+}
