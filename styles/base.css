@@ -44,4 +44,34 @@ header span section {
   color: #ffeb3b; /* yellow hover effect */
 }
 
+/* Main layout */
+main {
+  display: flex;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
 
+/* Card style */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+}
+
+.card h1 {
+  background-color: #1d4b6e;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px 8px 0 0;
+  margin-top: 0;
+}
+
+.card img {
+  max-width: 150px;
+  float: right;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
