@@ -76,6 +76,41 @@ main {
   border-radius: 5px;
 }
 
+/* Web Dev Resources */
+aside {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+}
+
+aside h2 {
+  background-color: #1d4b6e;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px 8px 0 0;
+  margin-top: 0;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin: 0.5rem 0;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #1d4b6e;
+}
+
+aside ul li a:hover {
+  text-decoration: underline;
+}
+
 footer {
   background-color: #1d4b6e; /* dark blue */
   color: white;
